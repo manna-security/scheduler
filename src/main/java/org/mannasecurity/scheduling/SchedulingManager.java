@@ -39,7 +39,7 @@ public class SchedulingManager {
 
         taskProcessorManager.start();
 
-        log.debug("Stopped scheduling manager.");
+        log.debug("Started scheduling manager.");
     }
 
     @PreDestroy
